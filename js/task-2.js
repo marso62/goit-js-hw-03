@@ -8,13 +8,13 @@ console.log('Задание 3-2!')
 // const countProps = function(obj) {
 //     const value = Object.values(obj)
 //     let sum = 0
-//     for (let i = 0; i < value; i += 1) {
+//     for (let i = 0; i < value.length; i += 1) {
 //         sum += 1
 //     }
-//     return sum                                           //почему не подсчитывается сумма?
+//     return sum
 // }
 
-const countProps = obj => Object.values(obj).length;
+const countProps = obj => Object.values(obj).length
 /*
  * Вызовы функции для проверки работоспособности твоей реализации.
  */

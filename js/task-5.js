@@ -12,7 +12,8 @@ const products = [
     { name: 'Захват', price: 1200, quantity: 2 },
 ]
 
-// const getAllPropValues = (arr, prop) => arr.prop;     //почему не сработала такая запись?)
+// const getAllPropValues = (arr, prop) => arr[0][prop]
+// const getAllPropValues = (arr, prop) => arr[0].name
 
 const getAllPropValues = (arr, prop) => {
     const value = []

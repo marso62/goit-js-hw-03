@@ -7,7 +7,7 @@ console.log('Задание 3-4!')
 // передаваемого в функцию, имеет вид "имя":"зарплата".
 
 const countTotalSalary = employees => {
-    const values = Object.values(employees) //есть ли разница в таких задачах через какой метод действовать keys  или value?
+    const values = Object.values(employees)
 
     let total = 0
 
